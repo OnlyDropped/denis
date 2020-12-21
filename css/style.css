@@ -214,6 +214,36 @@
 
 
 @media (max-width: 375px){
+  .about{
+    max-width: 100%;
+    padding-top: 81px;
+    padding-bottom: 26px;
+  }
+  .title{
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+  .subtitle{
+    display: block;
+    width: 316px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
   .skill{
     max-width: 100%;
     padding-top: 83px;
@@ -297,6 +327,40 @@
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 77px;
+  }
+  .contcts{
+    max-width: 100%;
+    padding-top: 82px;
+    padding-bottom: 90px;
+  }
+  .contacts{
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+  .contacts__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .contacts__link{
+    display: block;
+    width: 316px;
+    margin: 0 auto;
+    padding: 12px 97px 12px 97px;
+    margin-bottom: 48px;
+  }
+  .contacts__icon{
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .contacts__footer{
+    width: 315px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
