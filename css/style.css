@@ -189,12 +189,43 @@
 
 
 
-@media (max-width: 992px){
-  .header-inner{
-    display: none;
+@media (max-width: 375px){
+  .skill{
+    max-width: 100%;
+    padding-top: 83px;
   }
-  .author-inner__link{
-    display: none;
+  .skills{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+  }
+  .container{
+    max-width: 375px;
+    padding: 0;
+  }
+  .skill__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 98px;
+    background-color: #c6c6c6;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 22px;
+  }
+  .skill-inner{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-inners{
+    width: 166px;
+    margin: 0 auto;
+    margin-bottom: 81px;
   }
 }
 
