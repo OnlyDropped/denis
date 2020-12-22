@@ -252,12 +252,43 @@
 .header__nav.open-menu {
   transform: translateX(0%);
 }
+.author{
+  display: block;
+  width: 100%;
+  margin-top: -109px;
+  padding: 0;
+}
+.author-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.author-inner__title{
+  font-size: 47px;
+  line-height: 58px;
+  margin-bottom: 23px;
+}
+.author-inner__desc{
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 35px;
+}
+.author-inner__link{
+  display: none;
+}
+.bg-small{
+  background-image: url('../img/portfolio/bg-small.jpg');
+  width: 316px;
+  height: 478px;
+  margin: 0 auto;
+  background-position: top left;
+}
 
 
 
 
 
-menu-burger__header open-menu
+
 
 
 
